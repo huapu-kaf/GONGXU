@@ -1,0 +1,50 @@
+confidence_thresholds:
+  circle_confidence: 40
+  color_confidence: 50
+  qr_confidence: 50
+hough_params:
+  blur_ksize: 5
+  dp: 12
+  edge_threshold: 80
+  maxRadius: 100
+  max_circles: 8
+  minDist: 30
+  minRadius: 20
+  param1: 100
+  param2: 25
+  roi_padding: 20
+hsv_thresholds:
+  blue_lower_h: 90
+  blue_lower_s: 80
+  blue_lower_v: 80
+  blue_upper_h: 130
+  blue_upper_s: 255
+  blue_upper_v: 255
+  green_lower_h: 35
+  green_lower_s: 80
+  green_lower_v: 80
+  green_upper_h: 85
+  green_upper_s: 255
+  green_upper_v: 255
+  red_lower2_h: 160
+  red_lower2_s: 100
+  red_lower2_v: 100
+  red_lower_h: 0
+  red_lower_s: 100
+  red_lower_v: 100
+  red_upper2_h: 180
+  red_upper2_s: 255
+  red_upper2_v: 255
+  red_upper_h: 10
+  red_upper_s: 255
+  red_upper_v: 255
+serial_config:
+  baudrate: 115200
+  reconnect_interval: 5.0
+  timeout: 1.0
+static_object_detection:
+  enable: true
+  min_area: 100
+  min_circularity: 0.7
+use_yolo: false
+yolov5_model_path: yolov5
